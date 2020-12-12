@@ -1,0 +1,21 @@
+{
+  "posts": [],
+
+  "comments": [
+    {
+      "id": 1
+    },
+    {
+      "total": 101,
+      "id": 22
+    },
+    {
+      "id": 21,
+      "sayHi": "Hi"
+    }
+  ],
+  
+  "profile": {
+    "name": "typicode"
+  }
+}

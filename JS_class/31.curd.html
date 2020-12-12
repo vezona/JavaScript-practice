@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnJS101</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+
+<style>
+    th {
+
+        width: 50px;
+        color: green;
+        text-align: center;
+    }
+
+    .modify {
+        color: red;
+    }
+</style>
+
+<body>
+    <h1>會員註冊、刪除、修改、讀取的應用程式</h1>
+
+    <!-- 列表>表格 -->
+    <!-- 讀取>表格 -->
+
+
+    <table border=1>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>姓名</th>
+                <th>ＥＭＡＩＬ</th>
+                <th>手機</th>
+
+                <!-- 操做內會有兩個按鈕，刪除、修改的按鈕 -->
+                <th>操作</th>
+
+            </tr>
+        </thead>
+
+        <tbody id="memberData"></tbody>
+
+
+    </table>
+
+
+
+
+
+
+    <!-- 引入自己的ＪＳ -->
+    <script src="./31.curd.js"></script>
+</body>
+
+</html>
